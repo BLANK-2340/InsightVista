@@ -22,4 +22,9 @@ InsightVista is a full-stack analytics dashboard that allows you to:
 - An AWS S3 bucket + credentials
 
 ### Environment Variables
-Create `.env` in `backend/`:
+Create `.env` in `backend/`:MONGODB_URI=mongodb+srv://username:password@cluster0.mongodb.net/insightvista?
+retryWrites=true&w=majority JWT_SECRET=your_jwt_secret_key
+AWS_ACCESS_KEY_ID=your_aws_access_key_id 
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+AWS_REGION=us-east-1 
+S3_BUCKET_NAME=your_s3_bucket_name PORT=5000
